@@ -11,10 +11,6 @@ app.get('/login-form', (req, res) => {
     res.render('login');
 });
 
-app.post('/success', (req,res) => {
-    res.render('success')
-});
-
 
 //listening port
 const PORT = 4000;
