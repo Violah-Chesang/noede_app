@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style type="text/css">
+        *{
+            background-color: bisque;
+        }
+
+        form{
+            width: 20%;
+            margin: auto;
+            padding: 100px;
+        }
+        form input{
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form method="POST" action="/views/success.ejs">
+        <label for="name">Name:</label> </br>
+        <input type="text" id="name"></br>
+
+        <label for="email">Email:</label></br>
+        <input type="text" id="email"></br>
+
+        <label for="phone">Phone No.:</label></br>
+        <input type="text" id="phone"></br>
+
+        <input type="button" value="SUBMIT">
+    </form>
+    
+</body>
+</html>
